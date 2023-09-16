@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+
+}
+
+.hero{
+    background-color: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    align-items:center ;
+    padding: 20px 8%;
+
+}
+nav .menu-img{
+    width: 25px;
+    cursor: pointer;
+    
+}
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+
+
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+   
+
+  
+
+
+}
+nav ul li a:hover{
+transform: translateY(-20px);
+
+
+}
+button{
+background: #efefef;
+height: 22px;
+width: 40px;
+border-radius: 20px;
+border: 0;
+outline: 0;
+}
+button span{
+display: block;
+background: #999;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+margin-left: 2px;
+}
+.img{
+position: absolute;
+top:-20px ;
+left:32% ;
+width: 200px;
+
+}
+.lamp{
+    width: 100%;
+}
+.light{
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translateX(-50%);
+width: 750px;
+margin-left: -10px;
+margin-top:-7px ;
+
+}
+.font{
+max-width: 600px;
+margin-top:7% ;
+margin-left: 20px;
+font-family: serif;
+
+}
+.font h1{
+font-size:60px ;
+font-weight: 400;
+font-family: sans-serif;
+} 
+.font a{
+    text-decoration:none ;
+    background: #7b7877;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display:inline-block;
+    color: #13110a;
+    font-size:18px ;
+    margin-top: 30px;
+    transition: 0.7s;
+    box-shadow: 1px 2px 8px 2px rgb(22, 220, 4);
+
+}
+.font a:hover{
+opacity: 1;
+transform:scale(1.1);
+}
+.font p{
+    font-weight: bold;
+
+
+
+}
